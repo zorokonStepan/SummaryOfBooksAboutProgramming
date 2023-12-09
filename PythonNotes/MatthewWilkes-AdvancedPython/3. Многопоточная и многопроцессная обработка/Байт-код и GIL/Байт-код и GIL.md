@@ -90,12 +90,14 @@
                         pool.submit(increment)
                 
                 results.append(num)
-        num = 0
-        correct = [a for a in results if a == 100]
-        pct = len(correct) / len(results)
-        print(f"{pct:.1%} правильно при sys.setswitchinterval({si:.10f})")
-        На моем компьютере при прогоне этой программы было напечатано
-        100.0% правильно при sys.setswitchinterval(0.0050000000)
-        71.0% правильно при sys.setswitchinterval(0.0000005000)
-        84.0% правильно при sys.setswitchinterval(0.0000000005)
+                num = 0
+                
+            correct = [a for a in results if a == 100]
+            pct = len(correct) / len(results)
+            print(f"{pct:.1%} правильно при sys.setswitchinterval({si:.10f})")
+            
+    На моем компьютере при прогоне этой программы было напечатано
+    100.0% правильно при sys.setswitchinterval(0.0050000000)
+    71.0% правильно при sys.setswitchinterval(0.0000005000)
+    84.0% правильно при sys.setswitchinterval(0.0000000005)
 ```
