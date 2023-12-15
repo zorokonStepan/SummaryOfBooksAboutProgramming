@@ -16,12 +16,17 @@ def non_daemon():
 
 logging.basicConfig(level=logging.DEBUG, format='(%(threadName)-10s) %(message)s')
 
-d = threading.Thread(name='daemon', target=daemon, daemon=True)
-t = threading.Thread(name='non-daemon', target=non_daemon)
+daemon_1 = threading.Thread(name='daemon_1', target=daemon, daemon=True)
+no_daemon = threading.Thread(name='non-daemon', target=non_daemon)
+daemon_2 = threading.Thread(name='daemon_2', target=daemon)
+daemon_2.daemon = True
 
-d.start()
-t.start()
+daemon_2.start()
+daemon_1.start()
+no_daemon.start()
 
-dd = threading.Thread(name='daemon dd', target=daemon)
-dd.daemon = True
-dd.start()
+daemon_1.join(0.1)
+print('d.isAlive()', daemon_1.is_alive())
+no_daemon.join()
+
+daemon_2.join()
