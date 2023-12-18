@@ -10,3 +10,4 @@
 |    -     | Абдулазиз Абдулазиз Адешина |          Создание веб-API Python с помощью FastAPI          |    2022     |                                                                                                             |
 |    -     | Михаил Яворски, Тарек Зиаде |     Python. Лучшие практики и инструменты. 4-е издание.     |    2023     |                                 ABC, интерфейсы, OOP, dunder methods, meta                                  |
 |    *     |       Matthew Wilkes        |                 Advanced Python Development                 |    2021     | pipenv, pytest, flake8, mypy, SQLAlchemy, Alembic, threading, создание интерфейса командной строки, jupyter |
+|    -     |  Бэнкс Алекс, Порселло Ева  |    GraphQL: язык запросов для современных веб-приложений    |    2019     |                                                                                                             |
