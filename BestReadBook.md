@@ -12,3 +12,4 @@
 |    +     |        Matthew Wilkes        |                 Advanced Python Development                 |    2021     | pipenv, pytest, flake8, mypy, SQLAlchemy, Alembic, threading, создание интерфейса командной строки, jupyter |
 |    -     |  Бэнкс Алекс, Порселло Ева   |    GraphQL: язык запросов для современных веб-приложений    |    2019     |                                                                                                             |
 |    +     | Н.А. Прохоренок, В.А. Дронов |          Python 3 и PyQt 6. Разработка приложений           |    2023     |                                 лучшая база по Python до 3.10 включительно                                  |
+|    *     |        Моргунов Е.П.         |                PostgreSQL. Основы языка SQL                 |    2018     |                                                                                                             |
